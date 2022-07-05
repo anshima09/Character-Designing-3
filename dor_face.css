@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 500px;
+    background: rgb(25, 247, 180);
+}
+
+.head{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(19, 123, 192);
+    border-radius: 50%;
+    top: 15px;
+    left: 32%;
+}
+.face{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 50%;
+    top: 17%;
+    right: 7%;
+}
+.face::before{
+    content: "";
+    background: #e72a23;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    top: 308px;
+    left: 28%;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    /*transition: 0.5s;*/
+}
+.eye-left{
+    position: absolute;
+    width: 150px ;
+    height: 170px;
+    border-radius: 50%;
+    background: white; 
+    top: 10%;
+    right: 25%;
+    box-shadow: 3px 5px 3px 5px #7c7b7c;
+    border: 2px solid white;
+}
+.eye-right{
+    position: absolute;
+    width: 150px ;
+    height: 170px;
+    border-radius: 50%;
+    background: white; 
+    top: 10%;
+    left: 25%;
+    box-shadow: 3px 5px 3px 5px #7c7b7c;
+    border: 2px solid white;
+}
+.eye-right::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 65px;
+    border-radius: 50%;
+    background: black;
+    top: 25%;
+    left: 60%;
+}
+.eye-left::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 65px;
+    border-radius: 50%;
+    background: black;
+    top: 25%;
+    right: 60%;
+}
+.nose{
+    position:absolute ;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: red;
+    top: 30%;
+    left: 45%;
+}
+.line-joining{
+    position: absolute;
+    width: 3px;
+    height: 170px;
+    background: black;
+    top: 40%;
+    left: 50%;
+}
+.mustache1{
+    position: absolute;
+    width: 2px;
+    height: 170px;
+    background: black;
+    top: 40%;
+    left: 70%;
+    transform: rotate(95deg);
+}
+.mustache2{
+    position: absolute;
+    width: 2px;
+    height: 170px;
+    background: black;
+    top: 30%;
+    left: 70%;
+    transform: rotate(95deg);
+}
+.mustache3{
+    position: absolute;
+    width: 2px;
+    height: 170px;
+    background: black;
+    top: 50%;
+    left: 70%;
+    transform: rotate(95deg);
+}
+.mustache4{
+    position: absolute;
+    width: 2px;
+    height: 170px;
+    background: black;
+    top: 30%;
+    right: 70%;
+    transform: rotate(85deg);
+}
+.mustache5{
+    position: absolute;
+    width: 2px;
+    height: 170px;
+    background: black;
+    top: 40%;
+    right: 70%;
+    transform: rotate(85deg);
+}
+.mustache6{
+    position: absolute;
+    width: 2px;
+    height: 170px;
+    background: black;
+    top: 50%;
+    right: 70%;
+    transform: rotate(85deg);
+    
+}
+
+
+
